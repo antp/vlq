@@ -16,8 +16,6 @@ defmodule Vlq.Decode do
     <<next_value::size(8), data::binary>> = data
     continuation = 0x80 &&& next_value
 
-    next_value = 0x7F &&& next_value
-
     decode(continuation, next_value, data, [value | acc])
   end
 
