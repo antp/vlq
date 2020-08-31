@@ -9,7 +9,7 @@ number of binary octets (eight-bit bytes) to represent an arbitrarily large
 integer. A VLQ is essentially a base-128 representation of an unsigned
 integer with the addition of the eighth bit to mark continuation of bytes.
 
-
+[Blog article about the code](https://componentx.co.uk/blog/variable-length-quantity)
 
 ## Installation
 
